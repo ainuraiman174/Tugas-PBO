@@ -1,0 +1,4 @@
+1. Donatur
+2. Penerima Donasi
+3. Donasi
+4. Organisasi

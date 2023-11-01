@@ -1,0 +1,40 @@
+
+Kelompok 1 SDG 2
+Anggota : Ai Nuraiman
+          Arifal Muhammad Iqbal
+          Diki Naufal
+          Nadya Nada Pradista
+          Yosafatur Aprendy Panjaitan
+
+
+Atribut Food Share :
+1. `private static Map<String, Donatur> donaturDatabase`
+2. `private static Map<String, PenerimaDonasi> penerimaDonasiDatabase`
+3. `private static Map<String, Organisasi> organisasiDatabase`
+4. `private static Scanner scanner`
+5. `private String nama`
+6. `private Donatur pembuatCampaign`
+7. `private String tanggal`
+8. `private int target`
+
+Method Food Share : 
+1. `public static void main(String args[])`
+2. `private static void registerPenerimaDonasi()`
+3. `private static void loginDonatur()`
+4. `private static void loginPenerimaDonasi()`
+5. `private static String getInput(String prompt)`
+6. `private static void registerDonatur()`
+7. `private static void menuDonatur(Donatur donatur)`
+8. `private static void submitDonasi(Donatur donatur)`
+9. `private static void lihatDonasi(Donatur donatur)`
+10. `public Donasi(String nama, Donatur pembuatCampaign, String tanggal, int target)`
+   - Konstruktor untuk inisialisasi objek `Donasi` dengan parameter nama, pembuatCampaign, tanggal, dan target. 
+11. `public String getNama()`
+   - Method untuk mengembalikan nilai dari atribut `nama`.
+12. `public int getTarget()`
+   - Method untuk mengembalikan nilai dari atribut `target`.
+13. `public String getTanggal()`
+   - Method untuk mengembalikan nilai dari atribut `tanggal`.
+14. `public Donatur getPembuatCampaign()`
+   - Method untuk mengembalikan objek `Donatur` yang menjadi pembuat campaign.
+
